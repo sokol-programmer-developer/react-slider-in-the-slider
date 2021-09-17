@@ -1,0 +1,16 @@
+import React from "react";
+
+
+const   = () => {
+  return (
+    <>
+
+    </>
+  );
+}
+
+export default  ;
+
+
+
+https://dev.to/rakumairu/simple-react-carousel-24m0

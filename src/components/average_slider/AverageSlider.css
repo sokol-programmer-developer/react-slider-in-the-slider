@@ -1,0 +1,41 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.average_SliderSection{
+    display: grid;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+
+.average_SliderSubsection{
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(5,1fr);
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+}
+.average_SliderPartition{
+    display: grid;
+    position: relative;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+}
