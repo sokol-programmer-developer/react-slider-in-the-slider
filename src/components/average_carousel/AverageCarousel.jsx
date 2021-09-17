@@ -14,11 +14,13 @@ const AverageCarousel = (props) => {
     },[children]);
 
     useEffect(() => {
+        // other code
         const interval = setInterval(() => {
             setCurrentIndex(currentIndex === children.length-1 ? 0 : currentIndex + 1);
+            // eslint-disable-next-line react-hooks/exhaustive-deps
         }, 5000);
         return () => clearInterval(interval);
-    }, [currentIndex]);
+    }, [ currentIndex]);
 
     const next = () => {
         if (currentIndex < (length - show)) {

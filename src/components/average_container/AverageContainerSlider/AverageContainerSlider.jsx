@@ -6,10 +6,10 @@ import AverageSliderDots from "./AverageSliderDots";
 import "./AverageContainerSlider.css"
 
 
-const ASlide = AverageImagesSlider.length-1;
+
 
 const AverageContainerSlider = () => {
-
+    const ASlide = AverageImagesSlider.length-1;
     const [activeId, setActiveId] = useState(0);
 
     useEffect(() => {
